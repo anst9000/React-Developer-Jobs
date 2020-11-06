@@ -1,0 +1,22 @@
+{
+  "name": "Developer-Job-Search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anders Stromberg <coltlaboy@yahoo.se>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "luxon": "^1.25.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  }
+}

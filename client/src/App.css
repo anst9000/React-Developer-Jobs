@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 20px 40px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #5fbff9;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: pink;
+}
+
+.job {
+  background: #ebdcde;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 20px !important;
+  color: #171d1c;
+}
+
+.job:hover {
+  cursor: pointer;
+  background-color: #dddddd;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
